@@ -1,0 +1,2 @@
+zenstates.py /usr/sbin/
+zenstates.service /lib/systemd/system/

@@ -1,0 +1,15 @@
+Source: zenstates
+Section: utils
+Priority: optional
+Maintainer: Marc POULHIÈS <dkm@kataplop.net>
+Build-Depends: debhelper-compat (= 10)
+Standards-Version: 4.5.0
+Homepage: https://github.com/r4m0n/ZenStates-Linux
+#Vcs-Browser: https://salsa.debian.org/debian/zenstates
+#Vcs-Git: https://salsa.debian.org/debian/zenstates.git
+
+Package: zenstates
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Dynamically edit AMD Ryzen processor P-States
+ Dynamically edit AMD Ryzen processor P-States, mainly used to workaround a Ryzen bug that freezes everything on idle.
