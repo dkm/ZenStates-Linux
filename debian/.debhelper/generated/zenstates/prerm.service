@@ -1,5 +1,0 @@
-# Automatically added by dh_installsystemd/13
-if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
-	deb-systemd-invoke stop 'zenstates.service' >/dev/null || true
-fi
-# End automatically added section
